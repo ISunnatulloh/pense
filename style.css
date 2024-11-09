@@ -7,6 +7,7 @@
 }
 body{
     font-family: "Roboto", serif;
+    height: 100000px;
 }
 img,
 video,
@@ -14,4 +15,298 @@ svg{
     height: auto;
     max-width: 100%;
     object-fit: cover;
+}
+section.product{
+    width: 100%;
+    margin-top: 150px;
+}
+section.product .mainbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+section.product .col-lg-12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.product h1 {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 96px;
+    color: black;
+    margin: 0px;
+
+}
+section.product p.text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgba(189, 189, 189, 1);
+    margin: 0px;
+}
+section.product .mainbox .boxchild img {
+    display: flex;
+    margin: auto;
+}
+section.product .mainbox .boxchild:hover {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 65px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.04);
+    transition: 1s;
+}
+section.product .mainbox .boxchild h5 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: 500px;
+    line-height: 30px;
+    margin: 0px;
+}
+section.product .mainbox .boxchild p.title {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 23px;
+    margin: 0px;
+}
+/* section plan starting */
+section.plan{
+    width: 100%;
+    background-color: rgba(255, 250, 248, 1);
+    margin-top: 140px;
+}
+section.plan h1 {
+    text-align: center;
+    color: black;
+    padding-top: 125px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+}
+section.plan .out {
+    margin: 80px 0px 125px 0px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+
+}
+section.plan .out .inside {
+    padding: 40px;
+}
+section.plan .out .inside h5 {
+    padding-top: 24px;
+    color: rgba(41, 40, 48, 1);
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 51px;
+    margin: 0px;
+}
+section.plan .out .inside .check:nth-child(3){
+    margin-top: 24px;
+}
+section.plan .out .inside .check{
+    margin-bottom: 8px;
+}
+section.plan .out .inside h4 {
+    padding-top: 24px;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 0px;
+}
+section.plan .out .inside h4 span {
+    padding-top: 24px;
+    color: rgba(189, 189, 189, 1);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0px;
+}
+
+section.plan .out .inside h6 {
+    color: rgba(189, 189, 189, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px;
+}
+section.plan .out .inside button{
+    padding: 12px 24px;
+    background: transparent;
+    border: 2px solid rgba(255, 114, 53, 1);
+    border-radius: 8px;
+    color: rgba(255, 114, 53, 1);
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+    margin-top: 40px;
+}
+section.plan .out .inside button:hover{
+    background-color: rgba(255, 114, 53, 1);
+    color: white;
+    transition: 1s;
+}
+section.wishers {
+    width: 100%;
+}
+section.wishers .owl {
+    display: flex;
+    overflow-X: scroll;
+    grid-gap: 30px;
+    width: 100%;
+}
+section.wishers .owl .cardone{
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+section.wishers .owl .cardone .topline {
+    height: 10px;
+    width: 100%;
+    background-color: rgba(255, 114, 53, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+section.wishers .owl .cardone:nth-child(2) .topline{
+    background-color: rgba(255, 190, 33, 1);
+}
+section.wishers .owl .cardone:nth-child(3) .topline{
+    background-color: rgba(71, 86, 223, 1);
+}
+section.wishers .owl .cardone:nth-child(4) .topline{
+    background-color: rgba(62, 193, 243, 1);
+}
+section.wishers .owl .cardone:nth-child(5) .topline{
+    background-color: rgba(187, 114, 89, 1);
+}
+section.wishers .owl .cardone:nth-child(6) .topline{
+    background-color: rgba(255, 190, 33, 1);
+}
+section.wishers .owl .cardone:nth-child(7) .topline{
+    background-color: rgba(71, 86, 223, 1);
+}
+section.wishers .owl .cardone:nth-child(8) .topline{
+    background-color: rgba(62, 193, 243, 1);
+}
+section.wishers .owl .cardone .yin {
+    padding: 16px 28px;
+}
+section.wishers .owl .cardone .yin p.text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: black;
+    margin: 0px;
+}
+section.wishers .owl .cardone .yin .bottom {
+    display: flex;
+    grid-gap: 12px;
+}
+section.wishers .owl .cardone .yin .bottom img {
+    height: unset;
+    object-fit: contain;
+}
+
+section.wishers .owl .cardone .yin .bottom h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    margin: 0px;
+}
+section.wishers h1 {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 56px;
+    color: black;
+    margin: 0px;
+}
+section.country{
+    width: 100%;
+    margin-top: 120px;
+}
+section.country h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0px;
+}
+section.country p.mid {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0px;
+    padding-top: 24px;
+}
+section.country .lastbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+section.country .lastbottom button{
+    margin-top: 60px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    color: rgba(255, 114, 53, 1);
+}
+
+footer{
+    width: 100%;
+    margin-top: 80px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p.top{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgba(41, 40, 48, 1);
+    margin: 0px;
+}
+
+footer ul {
+    padding-left: 0px;
+    margin: 0px;    
+    padding-top: 24px;
+}
+footer ul li a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;  
+}
+footer form{
+    display: flex;
+    align-items: center;
+    grid-gap: 70px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 7px 6px;
+    margin-top: 24px;
+}
+footer form input{
+    border: none;
+    outline: none;
+    padding: 10px 17px;
+}
+footer form button{
+    padding: 11px 18px;
+    background-color: rgba(255, 114, 53, 1);
+    border-radius: 8px;
+    color: white;
+    border: none;
+
 }
