@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Roboto", serif;
+}
+img,
+video,
+svg{
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
